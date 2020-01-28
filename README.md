@@ -5,6 +5,8 @@ On the one hand Open Platforms is a set of ideas about gig platforms and gig wor
 
 On the other hand, and what is more relevant here, Open Platforms is a set of services that aims implements the concepts described above. The picture below describes the system from a high level.
 
+![Functional overview over Open Platforms](https://github.com/jobtech-openplatforms/openplatforms-overview/blob/master/open-platforms-functional-overview.png)
+
 # Current status
 The system is in a clear beta state. The publicly deployed artifacts are not yet meant for unsupervised consumption. If you're interested in trying Open Platforms out, please let us know by opening an issue in this repo.
 
