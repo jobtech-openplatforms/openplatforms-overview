@@ -5,7 +5,7 @@ On the one hand Open Platforms is a set of ideas about gig platforms and gig wor
 
 On the other hand, and what is more relevant here, Open Platforms is a set of services that aims implements the concepts described above. The picture below describes the system from a high level.
 
-![Functional overview over Open Platforms](https://github.com/jobtech-openplatforms/openplatforms-overview/blob/master/open-platforms-functional-overview.png)
+![Functional overview over Open Platforms](https://github.com/jobtech-openplatforms/openplatforms-overview/blob/master/images/open-platforms-functional-overview.png)
 
 # Current status
 The system is in a clear beta state. The publicly deployed artifacts are not yet meant for unsupervised consumption. If you're interested in trying Open Platforms out, please let us know by opening an issue in this repo.
@@ -78,4 +78,9 @@ On a high level, the email based authorization flow works as follows:
 2. Open Platforms sends a verification email to the given email address.
 3. If the user has control over the email address, he/she clicks the link in the verification email.
 4. If the verification link was clicked, it is deemed that the Open Platform user making the claim in step 1 indeed owns the email address that was claimed.
-5. Open Platforms starts to fetch data from the platform for the given email-address. This is where the trust-part from the platform's side comes in. They trust that we only fetch data for accounts where we have verified ownership. 
+5. Open Platforms starts to fetch data from the platform for the given email-address. This is where the trust-part from the platform's side comes in. They trust that we only fetch data for accounts where we have verified ownership.
+
+# Functional flows
+There are various flows happening in the system. Below is an images describing some of these flows. More flows will be added over time.
+
+![Various flows](https://github.com/jobtech-openplatforms/openplatforms-overview/blob/master/images/openplatform-flows-various-scenarios.png)
