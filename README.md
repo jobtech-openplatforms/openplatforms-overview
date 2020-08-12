@@ -18,10 +18,8 @@ This is where the code for the central system of Open Platforms resides. There a
 
 * *Gigdata API -*
 The API-endpoint can be found here: [gigdata-api.openplatforms.org](https://gigdata-api.openplatforms.org/). This is the api used by applications (data consumers) that want to integrate with Open Platforms.
-* *Notification functions -*
-Functionality for notifying relevant applications of changes in the data.
 * *Platform Data fetcher -*
-The background service that is responsible for scheduling and performing data fetches for the connected users on the connected platforms.
+The background service that is responsible for scheduling and performing data fetches for the connected users on the connected platforms. Includes functionality for notifying relevant applications of changes in the data.
 
 ## [gig-platform-api](https://github.com/jobtech-openplatforms/gig-platform-api)
 This repository contains code that deals with actually fetching data from out-in (see description below) integrated platforms and provide the interface used by applications and platforms for managing their integrations. Two deployable units can be found here:
