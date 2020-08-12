@@ -17,7 +17,7 @@ The code that makes up the entire system is located in a handful of reposes, loc
 This is where the code for the central system of Open Platforms resides. There are three units of deployable functionality:
 
 * *Gigdata API -*
-The API-endpoint can be found here: [gigdata-api.openplatforms.org](https://gigdata-api.openplatforms.org/). This is the api used by applications (data consumers) that want to integrate with Open Platforms.
+The API-endpoint can be found here: [openplatforms-gigdata-api-test.jobtechdev.se](https://openplatforms-gigdata-api-test.jobtechdev.se) (NOTE! test environment). This is the api used by applications (data consumers) that want to integrate with Open Platforms.
 * *Platform Data fetcher -*
 The background service that is responsible for scheduling and performing data fetches for the connected users on the connected platforms. Includes functionality for notifying relevant applications of changes in the data.
 
@@ -25,7 +25,7 @@ The background service that is responsible for scheduling and performing data fe
 This repository contains code that deals with actually fetching data from out-in (see description below) integrated platforms and provide the interface used by applications and platforms for managing their integrations. Two deployable units can be found here:
 
 * *Dev portal -*
-The dev portal is an app where developers can register an account and start developing gig platform integrations and application integrations. The app can be found here: [dev.openplatforms.org](https://dev.openplatforms.org/)
+The dev portal is an app where developers can register an account and start developing gig platform integrations and application integrations. The app can be found here: [openplatforms-devportal-app-test.jobtechdev.se](https://openplatforms-devportal-app-test.jobtechdev.se) (NOTE! test environment)
 * *Gig data API service-*
 The Gigdata API service is responsible for talking to platforms that have integrated with the API to fetch data from them upon request.
 
@@ -36,7 +36,7 @@ A simple mock platform used for testing. It also functions as a reference implem
 A library repo containing common functionality shared between projects.
 
 ## [user-portal](https://github.com/jobtech-openplatforms/user-portal)
-User portal is an app where a user can disable active connections between apps and gig platforms and between Open Platforms and gig platforms. The app can be found here: [user.openplatforms.org](https://user.openplatforms.org/)
+User portal is an app where a user can disable active connections between apps and gig platforms and between Open Platforms and gig platforms. The app can be found here: [openplatforms-user-test.jobtechdev.se](https://openplatforms-user-test.jobtechdev.se) (NOTE! test environment)
 
 ## [my-digital-backpack](https://github.com/jobtech-openplatforms/my-digital-backpack)
 Not really a part of the Open Platforms implementation. It serves as a POC of an application (data-consumer) of the Open Platforms implementation. The app can be found here: [my-digital-backpack.web.app](https://my-digital-backpack.web.app/)
